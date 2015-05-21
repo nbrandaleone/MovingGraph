@@ -13,6 +13,8 @@
 		BF4EFDC61B0C0484001609A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4EFDC51B0C0484001609A3 /* Images.xcassets */; };
 		BF4EFDC91B0C0484001609A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4EFDC71B0C0484001609A3 /* LaunchScreen.xib */; };
 		BF4EFDD51B0C0484001609A3 /* MovingGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EFDD41B0C0484001609A3 /* MovingGraphTests.swift */; };
+		BF4EFDDF1B0CBE82001609A3 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EFDDE1B0CBE82001609A3 /* GraphView.swift */; };
+		BFDA96391B0E1DFB00322278 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFDA96381B0E1DFB00322278 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BF4EFDCE1B0C0484001609A3 /* MovingGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovingGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4EFDD31B0C0484001609A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4EFDD41B0C0484001609A3 /* MovingGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingGraphTests.swift; sourceTree = "<group>"; };
+		BF4EFDDE1B0CBE82001609A3 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		BFDA96381B0E1DFB00322278 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				BF4EFDBE1B0C0484001609A3 /* AppDelegate.swift */,
+				BFDA96381B0E1DFB00322278 /* README.txt */,
 				BF4EFDC01B0C0484001609A3 /* ViewController.swift */,
+				BF4EFDDE1B0CBE82001609A3 /* GraphView.swift */,
 				BF4EFDC21B0C0484001609A3 /* Main.storyboard */,
 				BF4EFDC51B0C0484001609A3 /* Images.xcassets */,
 				BF4EFDC71B0C0484001609A3 /* LaunchScreen.xib */,
@@ -194,6 +200,7 @@
 			files = (
 				BF4EFDC41B0C0484001609A3 /* Main.storyboard in Resources */,
 				BF4EFDC91B0C0484001609A3 /* LaunchScreen.xib in Resources */,
+				BFDA96391B0E1DFB00322278 /* README.txt in Resources */,
 				BF4EFDC61B0C0484001609A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4EFDDF1B0CBE82001609A3 /* GraphView.swift in Sources */,
 				BF4EFDC11B0C0484001609A3 /* ViewController.swift in Sources */,
 				BF4EFDBF1B0C0484001609A3 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				BF4EFDDA1B0C0484001609A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4EFDDB1B0C0484001609A3 /* Build configuration list for PBXNativeTarget "MovingGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				BF4EFDDD1B0C0484001609A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
